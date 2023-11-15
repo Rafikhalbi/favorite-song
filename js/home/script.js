@@ -98,9 +98,9 @@ document.addEventListener('DOMContentLoaded', () => {
             thumbnailImage.src = 'assets/thumbnail/' + song.thumbnail;
             thumbnailImage.alt = song.title;
             thumbnailImage.style.border = '0.7px solid #eaeaea';
-            buttonDownload.src = '../../assets/images/download.png';
+            buttonDownload.src = 'assets/images/download.png';
         
-            playPause.src = '../../assets/images/loading.svg';
+            playPause.src = 'assets/images/loading.svg';
 
             if (window.innerWidth <= 576) {
                 playMusicX.classList.toggle('fade-in-out');
@@ -112,9 +112,9 @@ document.addEventListener('DOMContentLoaded', () => {
             playPause.style.width = '4rem';
             playPause.style.cursor = 'pointer'
         
-            audio.src = '../../assets/music/' + song.FileName + '.mp3';
+            audio.src = 'assets/music/' + song.FileName + '.mp3';
             buttonDownload.addEventListener('click', ()=> {
-                mPath = '../../assets/music/' + song.FileName + '.mp3';
+                mPath = 'assets/music/' + song.FileName + '.mp3';
                 let downloadLink = document.createElement('a');
                 downloadLink.href = mPath;
                 downloadLink.download = song.FileName + '.mp3';
@@ -125,15 +125,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 seekBar.max = audio.duration;
                 seekbar.style.display = 'block';
                 audio.play();
-                playPause.src = '../../assets/images/pause.png';
+                playPause.src = 'assets/images/pause.png';
             });
         } else {
             if (audio.paused) {
                 audio.play();
-                playPause.src = '../../assets/images/pause.png';
+                playPause.src = 'assets/images/pause.png';
             } else {
                 audio.pause();
-                playPause.src = '../../assets/images/play.png';
+                playPause.src = 'assets/images/play.png';
             }
         }
     }
