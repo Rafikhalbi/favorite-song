@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    fetch('favorite-song/assets/playlist.json')
+    fetch('assets/playlist.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error('Failed to fetch JSON file');
