@@ -223,6 +223,7 @@ li:hover {
 
     .box-play{
         width: 90%;
+        height: 75vh;
     }
 
     .container .playlist {
