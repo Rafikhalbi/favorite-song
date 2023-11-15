@@ -1,0 +1,37 @@
+{
+    "playlist": {
+        "name": "Music playlist",
+        "description": "A collection of my favorite songs",
+        "songs": [
+            {
+                "title": "Locked Away",
+                "artist": "R. City, Adam Levine",
+                "duration": "03:55",
+                "FileName": "lockedAway",
+                "thumbnail": "lockedAway.jpg"
+            },
+            {
+                "title": "Imagination",
+                "artist": "Shawn Mendes",
+                "duration": "03:38",
+                "FileName": "imagination",
+                "thumbnail": "imagination.jpg"
+            },
+            {
+                "title": "At My Worst",
+                "artist": "Pink Sweat$",
+                "duration": "02:47",
+                "FileName": "atMyWorst",
+                "thumbnail": "atMyWorst.jpg"
+            },
+            {
+                "title": "Closer",
+                "artist": "The Chainsmokers",
+                "duration": "04:21",
+                "FileName": "closer",
+                "thumbnail": "closer.jpg"
+            }
+        ]
+    }
+  }
+  

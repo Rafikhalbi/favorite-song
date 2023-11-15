@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music player</title>
+    <link rel="stylesheet" href="css/home/style.css">
+</head>
+<body>
+    <div class="music-icons-container"></div>
+    <div class="container">
+        <div class="playlist">
+            <h3 class = "title"></h3>
+            <p class = "about"></p>
+            <div class="search">
+                <input class="search-input" type="text" placeholder="Search...">
+            </div>
+            <div class="box-music">
+                <ul></ul>
+            </div>
+        </div>
+        <div class="playMusic">
+            <div class="box-play">
+                <div class="hide-btn" id="hideButton">
+                    <img src="assets/images/multiply.png" alt="hide">
+                </div>
+                <h3 class="music-title"></h3>
+                <p class="artist"></p>
+                <div class="thumbnail">
+                    <img class="img-thumbnail" src="" alt="">
+                </div>
+                <div class="seekbar">
+                    <span id="currentTime">0:00</span>
+                    <input type="range" id="seekBar" value="0">
+                    <span id="duration">0:00</span>
+                </div>
+                <div class="play-pause-download">
+                    <div class="btn-play-pause">
+                        <img class="play-pause" src="" alt="">
+                    </div>
+                    <div class="btn-download">
+                        <img class="download" src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript -->
+    <script src="js/home/script.js"></script>
+</body>
+</html>
